@@ -2,9 +2,12 @@ import React from 'react';
 import './AnswerItem.css';
 
 const AnswerItem = props => {
+
+    const stateClass = [props.state];
+    
     return(
         <li 
-            className='AnswerItem'
+            className={`AnswerItem ${stateClass}`}
             onClick={() => props.onAnswerClick(props.answer.id)}
           >
             { props.answer.text }
