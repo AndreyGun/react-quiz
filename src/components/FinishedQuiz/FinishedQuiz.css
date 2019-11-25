@@ -1,0 +1,16 @@
+.FinishedQuiz {
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.FinishedQuiz li i {
+    margin-left: 10px;
+}
+.FinishedQuiz li i.succes {
+    color: rgb(11, 214, 11);
+}
+.FinishedQuiz li i.error {
+    color: red;
+}
